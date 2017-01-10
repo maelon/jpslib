@@ -1,0 +1,33 @@
+{
+  "name": "jpslib",
+  "version": "1.0.0",
+  "description": "js publish/subscribe pattarn lib",
+  "main": "jpslib.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maelon/jpslib.git"
+  },
+  "keywords": [
+    "jpslib",
+    "ps",
+    "publish",
+    "subscirbe",
+    "observer"
+  ],
+  "author": "maelon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maelon/jpslib/issues"
+  },
+  "homepage": "https://github.com/maelon/jpslib#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}

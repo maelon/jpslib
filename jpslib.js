@@ -1,7 +1,17 @@
+/*===================================================================
+#    FileName: jpslib.js
+#      Author: Maelon.J
+#       Email: maelon.j@gmail.com
+#  CreateTime: 2016-04-21 22:31
+# Description: jpslib
+#     Version: v1.0.0
+# Updated by maelon 2017-01-10 19:24
+===================================================================*/
+
 /**
 * 简单的发布订阅机制
 */
-(function (jps) {
+module.exports = (function jpslib() {
 
     /**
     * interface to subscribe notification
@@ -244,4 +254,4 @@
         return this._type;
     };
 
-})(window.jpslib = window.jpslib || {});
+})();
