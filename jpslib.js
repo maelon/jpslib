@@ -4,7 +4,7 @@
 #       Email: maelon.j@gmail.com
 #  CreateTime: 2016-04-21 22:31
 # Description: jpslib
-#     Version: v1.0.1
+#     Version: v1.0.2
 # Updated by maelon 2017-01-11 15:21
 ===================================================================*/
 
@@ -255,4 +255,5 @@ module.exports = (function jpslib() {
         return this._type;
     };
 
+    return jps;
 })();
