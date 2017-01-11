@@ -1,6 +1,6 @@
 {
   "name": "jpslib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "js publish/subscribe pattarn lib",
   "main": "jpslib.js",
   "directories": {
