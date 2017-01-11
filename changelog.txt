@@ -1,2 +1,5 @@
+v1.0.1 2017-01-11 15:21
+fix jps undefined bug
+
 v1.0.0 2017-01-10 19:24
 npm publish

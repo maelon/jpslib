@@ -4,14 +4,15 @@
 #       Email: maelon.j@gmail.com
 #  CreateTime: 2016-04-21 22:31
 # Description: jpslib
-#     Version: v1.0.0
-# Updated by maelon 2017-01-10 19:24
+#     Version: v1.0.1
+# Updated by maelon 2017-01-11 15:21
 ===================================================================*/
 
 /**
 * 简单的发布订阅机制
 */
 module.exports = (function jpslib() {
+    var jps = {};
 
     /**
     * interface to subscribe notification
